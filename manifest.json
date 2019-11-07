@@ -15,5 +15,16 @@
       },
       "description": "Opens hello.html"
     }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "*://*/"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
   }
 }
